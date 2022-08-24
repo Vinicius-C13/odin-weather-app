@@ -1,0 +1,33 @@
+html, body, .container {
+    height: 100%;
+    margin: 0
+}
+
+h1 {
+    margin: 0;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    background-color: gray;
+}
+
+.header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 50px;
+    padding: 0px 20px
+}
